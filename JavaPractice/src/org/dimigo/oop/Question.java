@@ -39,7 +39,7 @@ public class Question {
 		sb2.append(answers2[1]);
 		StringBuilder sb3= new StringBuilder("가장 좋아하는 과목는? ");
 		sb3.append(answers2[2]);
-		System.out.println( sb1+"입니다");
+		System.out.println(sb1+"입니다");
 		System.out.println(sb2+"입니다");
 		System.out.println(sb3+"입니다");
 
