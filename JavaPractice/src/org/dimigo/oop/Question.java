@@ -33,12 +33,15 @@ public class Question {
 			}
 		}
 		System.out.println("<< 결과 출력 >>");
-		StringBuilder sb1 = new StringBuilder("가장 좋아하는 가수는? KK입니다");
-		StringBuilder sb2= new StringBuilder("가장 좋아하는 배우는? 공유입니다");
-		StringBuilder sb3= new StringBuilder("가장 좋아하는 과목는? 과학입니다");
-		System.out.println(sb1);
-		System.out.println(sb2);
-		System.out.println(sb3);
+		StringBuilder sb1 = new StringBuilder("가장 좋아하는 가수는? ");
+		sb1.append(answers2[0]);
+		StringBuilder sb2= new StringBuilder("가장 좋아하는 배우는? ");
+		sb2.append(answers2[1]);
+		StringBuilder sb3= new StringBuilder("가장 좋아하는 과목는? ");
+		sb3.append(answers2[2]);
+		System.out.println( sb1+"입니다");
+		System.out.println(sb2+"입니다");
+		System.out.println(sb3+"입니다");
 
 	}
 }
