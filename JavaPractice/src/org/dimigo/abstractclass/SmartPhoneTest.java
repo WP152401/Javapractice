@@ -23,10 +23,10 @@ public class SmartPhoneTest {
 		};
 		for (SmartPhone b : a){
 			System.out.println(b);
-			b.turnon();
+			b.turnOn();
 			b.pay();
 			b.useSpecialFunction();
-			b.turnoff();
+			b.turnOff();
 			System.out.println();
 		}
 		
